@@ -5,9 +5,6 @@ char* teste(int a) {
 	if(a>0) {
 		return "Falso";	
 	}
-	if(a==0) {
-		return "É Zero";
-	}
 	return "Verdadeiro";
 }
 
@@ -17,6 +14,6 @@ int main() {
 	scanf("%d", &valor);
 	teste(valor);
 	char* b = teste(valor);
-	printf("O número é negativo?\n%s", b);
+	printf("O nÃºmero Ã© negativo?\n%s", b);
 	return 0;
 }
